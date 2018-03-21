@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f25a0e2-876a-4d17-8e69-c1c807f82958" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/tut.beam" afterPath="$PROJECT_DIR$/tut.beam" />
       <change beforePath="$PROJECT_DIR$/tut.erl" afterPath="$PROJECT_DIR$/tut.erl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +18,8 @@
       <file leaf-file-name="tut.erl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tut.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,9 +49,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="896" />
-    <option name="y" value="34" />
-    <option name="width" value="974" />
+    <option name="x" value="1169" />
+    <option name="width" value="758" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -189,15 +190,15 @@
       <workItem from="1521577547026" duration="771000" />
       <workItem from="1521621775981" duration="122000" />
       <workItem from="1521650782482" duration="11000" />
-      <workItem from="1521664043449" duration="93000" />
+      <workItem from="1521664043449" duration="1094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="997000" />
+    <option name="totallyTimeSpent" value="1998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="896" y="34" width="974" height="1047" extended-state="0" />
+    <frame x="1169" y="0" width="758" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -267,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tut.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>

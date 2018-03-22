@@ -23,14 +23,6 @@ var_stuff() ->
     Num = 1,
     Num.
 
-main() ->
-    what_grade(2).
-
-what_grade(Grade) ->
-    if Grade < 5 -> preschool()
-    ; Grade == 5 -> kindergarten()
-    ; Grade > 5 -> grade_school()
-    end.
 
 preschool() ->
     'Go to preschool'.
@@ -40,3 +32,21 @@ kindergarten() ->
 
 grade_school() ->
     'Go to grade school'.
+
+%% Read semicolon as OR, comma as AND, full stop as END
+what_grade(Grade) ->
+    if Grade < 5 -> preschool()
+    ; Grade == 5 -> kindergarten()
+    ; Grade > 5 -> grade_school()
+    end.
+
+main() ->
+    find_factorial(3).
+
+factorial(N) when N == 0 -> 1;
+factorial(N) when N > 0 -> N * factorial(N - 1).
+
+
+find_factorial(X) ->
+    Y = factorial(X),
+    io:fwrite("Factorial : ~p\n", [Y]).

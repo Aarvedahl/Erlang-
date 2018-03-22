@@ -5,24 +5,7 @@
 
 -import(string, [len/1, concat/2, chr/2, substr/3, str/2, to_lower/1, to_upper/1]).
 
--export([double/1, add/2, add/3, divide/2, var_stuff/0, main/0]).
-
-double(X) ->
-    2 * X.
-
-add(A, B) ->
-    A + B.
-
-add(A, B, C) ->
-    A + B + C.
-
-divide(A, B) ->
-    A /B.
-
-var_stuff() ->
-    Num = 1,
-    Num.
-
+-export([main/0]).
 
 preschool() ->
     'Go to preschool'.
@@ -41,7 +24,9 @@ what_grade(Grade) ->
     end.
 
 main() ->
-    find_factorial(3).
+    %%find_factorial(3).
+    spawner2(50, 1),
+    spawner2(100, 51).
 
 factorial(N) when N == 0 -> 1;
 factorial(N) when N > 0 -> N * factorial(N - 1).
@@ -50,3 +35,13 @@ factorial(N) when N > 0 -> N * factorial(N - 1).
 find_factorial(X) ->
     Y = factorial(X),
     io:fwrite("Factorial : ~p\n", [Y]).
+
+for2(0,_)  ->
+    ok;
+
+for2(Max, Min) when Max > 0 ->
+    io:fwrite("Num : ~p\n", [Max]),
+    for2(Max-1, Min).
+
+spawner2(Max, Min) ->
+    spawn(fun() -> for2(Max, Min) end).

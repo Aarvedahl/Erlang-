@@ -45,3 +45,9 @@ for2(Max, Min) when Max > 0 ->
 
 spawner2(Max, Min) ->
     spawn(fun() -> for2(Max, Min) end).
+
+
+fibonacci(x) ->
+    if x == 1 -> 1
+    ; x > 1 -> fibonacci(x - 1)
+    end.

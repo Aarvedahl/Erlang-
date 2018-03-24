@@ -18,8 +18,8 @@
       <file leaf-file-name="tut.erl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tut.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="705">
+              <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -193,12 +193,13 @@
       <workItem from="1521664043449" duration="1191000" />
       <workItem from="1521702941208" duration="56000" />
       <workItem from="1521748333838" duration="2464000" />
-      <workItem from="1521836062744" duration="332000" />
+      <workItem from="1521836062744" duration="359000" />
+      <workItem from="1521912718802" duration="1335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4947000" />
+    <option name="totallyTimeSpent" value="6309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1169" y="0" width="758" height="1047" extended-state="0" />
@@ -295,8 +296,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tut.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tut.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
           <folding />
         </state>
       </provider>

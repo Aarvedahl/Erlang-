@@ -24,7 +24,7 @@ what_grade(Grade) ->
     end.
 
 main() ->
-    fibonacci().
+    fib(6).
     %%find_factorial(3).
     %spawner2(50, 1),
     %spawner2(100, 51).
@@ -47,24 +47,9 @@ for2(Max, Min) when Max > 0 ->
 spawner2(Max, Min) ->
     spawn(fun() -> for2(Max, Min) end).
 
-
-fibonacci() ->
-    %Try to access Fn-1 and Fn-2 if any of those doesn't exist then create it
-    %    io:fwrite("Sum of fibonacci : ~p\n", [listFind(5, List1)]).
-
-    List1 = [1,1,2,3,5],
-    FibList = [],
-    Sum = fib(2),
-    case listFind(2, FibList) of
-        false -> io:fwrite("Can't find the item");
-        true -> io:fwrite("Can find the item")
+fib(N) ->
+    if N == 0 -> 0
+    ; N == 1 -> 1
+    ; N > 1 -> fib(N-1) + fib(N-2)
     end.
-
-fib(X) ->
-    if X == 1 -> 1
-    ; X > 1 -> fib(X - 1)
-    end.
-
-listFind(Element, List) ->
-    lists:member(Element, List).
 

@@ -53,3 +53,6 @@ fib(N) ->
     ; N > 1 -> fib(N-1) + fib(N-2)
     end.
 
+
+squareRoot(N) ->
+    N * N.
